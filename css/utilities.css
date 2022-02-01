@@ -1,0 +1,87 @@
+/* text classes  */
+
+/* text line through  */
+.text-lt {
+  text-decoration: line-through;
+}
+
+/* text primary color  */
+.text-p-color {
+  color: var(--primary-color);
+}
+
+/* text secondary color  */
+.text-s-color {
+  color: var(--secondary-color);
+}
+
+/* small text  */
+.text-small {
+  font-size: 0.5rem;
+}
+
+/* gre-y color text  */
+.text-grey {
+  color: var(--grey);
+}
+
+/* center text  */
+.text-center {
+  text-align: center;
+}
+
+/* border  */
+
+/* border primary color 1px  */
+.b-p-1 {
+  border: 1px var(--primary-color) solid;
+}
+
+/* border primary color 2px  */
+.b-p-2 {
+  border: 2px var(--primary-color) solid;
+}
+
+/* border secondary color 1px  */
+.b-s-1 {
+  border: 1px var(--secondary-color) solid;
+}
+
+/* border secondary color 2px  */
+.b-s-2 {
+  border: 2px var(--secondary-color) solid;
+}
+
+/* border radius class */
+
+/* small */
+.br-s {
+  border-radius: 5px;
+}
+
+/* medium  */
+.br-m {
+  border-radius: 10px;
+}
+
+/* large  */
+.br-l {
+  border-radius: 15px;
+}
+
+/* border radius full or Circle  */
+.br-f {
+  width: max-content;
+  max-height: max-content;
+  border-radius: 50%;
+}
+
+/* background color */
+
+.bc-p {
+  background-color: var(--primary-color);
+}
+
+.bc-s {
+  background-color: var(--secondary-color);
+}
