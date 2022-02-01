@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@100&display=swap");
+@import url(/css/main.css);
+
+:root {
+  --primary-color: #1d4ed8;
+  --primary-light: #3b82f6;
+  --secondary-color: #1e3a8a;
+  --accent-color: #fbbf24;
+  --text-color: #292524;
+  --background-color: #f1f5f9;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* header  */
+.header {
+  height: 10vh;
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-img {
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--text-color);
+}
+
+.header-nav {
+  color: var(--text-color);
+  margin-left: auto;
+}
+
+.header-nav ul {
+  display: flex;
+  margin: auto 1rem;
+}
+
+.header-nav ul li {
+  list-style: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.header-nav ul li:nth-child(1) {
+  margin-right: 1rem;
+}
+
+/* main  */
+
+.main {
+  width: 80%;
+  height: 75vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.main .hero {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.main .hero-img {
+  display: flex;
+  justify-content: center;
+}
+
+.main-head {
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.main-subhead {
+  padding: 1rem;
+  font-size: 1.5rem;
+  align-self: flex-start;
+}
+
+.main-buttons {
+  margin-top: 1rem;
+}
+
+.main-buttons .btn-primary {
+  background-color: var(--primary-color);
+  font-weight: 500;
+}
+
+.btn-secondary {
+  border: 2px var(--primary-color) solid;
+  color: var(--secondary-color);
+  background-color: transparent;
+  font-weight: 500;
+}
+
+.main-buttons .btn-primary:hover {
+  color: white;
+  background-color: var(--secondary-color);
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+/* footer  */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 15vh;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icons i {
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 0.5rem 1rem;
+  padding: 0.2rem 0.5rem;
+}
