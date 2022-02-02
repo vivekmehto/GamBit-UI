@@ -1,0 +1,15 @@
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/* default size is 150px */
+.img-square,
+.img-round {
+  width: 150px;
+  height: 150px;
+}
+
+.img-round {
+  border-radius: 50%;
+}
