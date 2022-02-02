@@ -1,0 +1,56 @@
+.alert {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px var(--grey) solid;
+  color: var(--white);
+  box-shadow: 2px 2px 2px var(--grey);
+}
+
+.alert-link {
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+
+.alert .btn-close {
+  color: var(--white);
+  margin-left: auto;
+  width: 1.5rem;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.alert-secondary .btn-close,
+.alert-warning .btn-close i {
+  color: var(--black);
+}
+
+.alert i {
+  margin-left: 0.3rem;
+  margin-right: 0.8rem;
+}
+
+.alert-primary {
+  background-color: var(--blue-xl);
+}
+
+.alert-secondary {
+  background-color: var(--slate);
+  color: var(--black);
+}
+
+.alert-success {
+  background-color: var(--green-l);
+}
+
+.alert-danger {
+  background-color: var(--red-l);
+}
+
+.alert-warning {
+  background-color: var(--yellow-l);
+  color: var(--black);
+}
