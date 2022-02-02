@@ -55,7 +55,7 @@
 .btn-float {
   position: absolute;
   bottom: 0px;
-  left: 20px;
+  right: 20px;
   border-radius: 50%;
 }
 
