@@ -1,0 +1,33 @@
+.avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.av-text {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+.av-sm {
+  width: 2rem;
+  height: 2rem;
+}
+
+.av-md {
+  width: 4rem;
+  height: 4rem;
+}
+
+.av-lg {
+  width: 5rem;
+  height: 5rem;
+}
+
+.av-square {
+  border-radius: 5px;
+}
