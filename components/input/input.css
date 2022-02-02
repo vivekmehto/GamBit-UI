@@ -1,0 +1,60 @@
+.input-wrapper {
+  font-size: 1rem;
+  width: 80%;
+}
+
+.input-wrapper label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.input-wrapper label input {
+  border: 1px solid var(--grey);
+  padding: 0.5rem 0.8rem;
+  margin: 0.8rem 0;
+  border-radius: 2px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+}
+
+.input-error {
+  color: var(--red);
+}
+
+.input-error label input {
+  border: 1px var(--red) solid;
+}
+
+input:hover {
+  box-shadow: 2px 2px 2px var(--grey);
+}
+
+/* Radio and Checkbox */
+
+.radio label,
+.checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.disabled label,
+.disabled input {
+  cursor: not-allowed;
+}
+
+input[type="radio"]:hover,
+input[type="checkbox"]:hover {
+  box-shadow: 1px 1px 1px var(--grey);
+}
+
+.disabled input[type="radio"]:hover,
+.disabled input[type="checkbox"]:hover {
+  box-shadow: none;
+}
