@@ -1,0 +1,100 @@
+.btn {
+  margin: 0.5rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+  color: var(--white);
+}
+
+.btn-primary {
+  background-color: var(--blue);
+}
+
+.btn-secondary {
+  background-color: var(--grey);
+}
+
+.btn-success {
+  background-color: var(--green);
+}
+
+.btn-danger {
+  background-color: var(--red);
+}
+
+.btn-warning {
+  background-color: var(--yellow);
+}
+
+.btn-info {
+  background-color: var(--cyan);
+}
+
+.btn-light {
+  background-color: var(--light);
+  color: var(--black);
+  border: 1px var(--black) solid;
+}
+
+.btn-dark {
+  background-color: var(--black);
+}
+
+.btn-lg {
+  font-size: 1.5rem;
+}
+
+.btn-sm {
+  padding: 0.3rem 0.5rem;
+  font-size: 0.9rem;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.btn-float {
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  border-radius: 50%;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+
+.btn-primary:hover {
+  background-color: var(--blue-d);
+}
+
+.btn-secondary:hover {
+  background-color: var(--grey-dark);
+}
+
+.btn-success:hover {
+  background-color: var(--green-d);
+}
+
+.btn-danger:hover {
+  background-color: var(--red-d);
+}
+
+.btn-warning:hover {
+  background-color: var(--yellow-d);
+}
+
+.btn-info:hover {
+  background-color: var(--cyan-d);
+}
+
+.btn-light:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.btn-dark:hover {
+  background-color: var(--white);
+  color: var(--black);
+  border: var(--black) 1px solid;
+}
