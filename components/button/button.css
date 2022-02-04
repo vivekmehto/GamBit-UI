@@ -1,5 +1,4 @@
 .btn {
-  margin: 0.5rem;
   padding: 0.5rem 0.8rem;
   border-radius: 5px;
   color: var(--white);
@@ -54,9 +53,9 @@
 }
 
 .btn-float {
-  position: absolute;
-  bottom: 0px;
-  right: 20px;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
   border-radius: 50%;
 }
 
