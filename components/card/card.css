@@ -1,0 +1,101 @@
+.card {
+  position: relative;
+  background-color: var(--white);
+  max-width: 300px;
+  height: max-content;
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 5px var(--grey);
+}
+
+.card-horizontal {
+  flex-direction: row;
+  gap: 2rem;
+  max-width: max-content;
+  height: 350px;
+}
+
+.card-horizontal .card-left {
+  position: relative;
+  width: 300px;
+}
+
+.card-horizontal .card-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-right: 1rem;
+}
+
+.card-header {
+  padding: 0.6rem 0.8rem;
+}
+
+.card-header .card-title {
+  margin-bottom: 1rem;
+}
+
+.card-header .card-text {
+  font-size: 1.2rem;
+}
+
+.card .card-img {
+  cursor: pointer;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card-overlay {
+  opacity: 0.4;
+}
+
+.card-text-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: not-allowed;
+}
+
+.card .badge-text {
+  border-radius: 0;
+  top: 10%;
+}
+
+.card .btn-card {
+  border: none;
+  background: transparent;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.card .btn-card i {
+  font-size: 1.5rem;
+}
+
+.card .btn-card:hover {
+  color: var(--grey-dark);
+}
+
+.card .btn-heart {
+  color: var(--red-xl);
+}
+
+.card .btn-heart:hover {
+  color: var(--red-d);
+}
+
+.card:hover {
+  box-shadow: 1px 1px 5px var(--grey);
+}
