@@ -1,0 +1,93 @@
+.badge-wrapper {
+  position: relative;
+  width: fit-content;
+}
+
+.badge {
+  position: absolute;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  border: 2px white solid;
+}
+
+.badge-bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.badge-right {
+  right: -10px;
+  top: -10px;
+}
+
+.badge-left {
+  left: -10px;
+  top: 0;
+}
+
+.badge-online {
+  background-color: var(--green);
+}
+
+.badge-offline {
+  background-color: var(--red);
+}
+
+.badge-idle {
+  background-color: var(--yellow);
+}
+
+.badge-wrapper .av-sm ~ .badge {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.badge-wrapper .av-md ~ .badge {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.badge-wrapper .av-lg ~ .badge {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.badge-text {
+  position: absolute;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.badge-capsule {
+  border-radius: 15px;
+}
+
+.badge-wrapper h2 .badge-text {
+  font-size: 1rem;
+}
+
+.badge-wrapper h3 .badge-text {
+  font-size: 0.8rem;
+}
+.badge-wrapper h4 .badge-text {
+  font-size: 0.6rem;
+}
+.badge-wrapper h5 .badge-text {
+  font-size: 0.5rem;
+}
+
+.badge-number {
+  background-color: var(--red);
+  color: var(--white);
+  padding: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.badge-wrapper i {
+  font-size: 3rem;
+}
