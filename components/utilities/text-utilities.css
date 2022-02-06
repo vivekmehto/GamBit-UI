@@ -34,6 +34,10 @@
 .text-ul {
   text-decoration: underline;
 }
+/* text uppercase  */
+.text-up {
+  text-transform: uppercase;
+}
 
 /* text primary color  */
 .text-p-color {
