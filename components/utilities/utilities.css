@@ -51,22 +51,22 @@
 /* border radius class */
 
 /* small */
-.br-s {
+.b-rad-s {
   border-radius: 5px;
 }
 
 /* medium  */
-.br-m {
+.b-rad-m {
   border-radius: 10px;
 }
 
 /* large  */
-.br-l {
+.b-rad-l {
   border-radius: 15px;
 }
 
 /* border radius full or Circle  */
-.br-f {
+.b-rad-f {
   width: max-content;
   max-height: max-content;
   border-radius: 50%;
