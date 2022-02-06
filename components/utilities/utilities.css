@@ -1,0 +1,83 @@
+/* margin class */
+.m-05 {
+  margin: 0.5rem;
+}
+.m-01 {
+  margin: 1rem;
+}
+.m-15 {
+  margin: 1.5rem;
+}
+.m-2 {
+  margin: 2rem;
+}
+
+/* padding class */
+.p-05 {
+  padding: 0.5rem;
+}
+.p-01 {
+  padding: 1rem;
+}
+.p-15 {
+  padding: 1.5rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+
+/* border  */
+
+/* border primary color 1px  */
+.b-p-1 {
+  border: 1px var(--primary-color) solid;
+}
+
+/* border primary color 2px  */
+.b-p-2 {
+  border: 2px var(--primary-color) solid;
+}
+
+/* border secondary color 1px  */
+.b-s-1 {
+  border: 1px var(--secondary-color) solid;
+}
+
+/* border secondary color 2px  */
+.b-s-2 {
+  border: 2px var(--secondary-color) solid;
+}
+
+/* border radius class */
+
+/* small */
+.b-rad-s {
+  border-radius: 5px;
+}
+
+/* medium  */
+.b-rad-m {
+  border-radius: 10px;
+}
+
+/* large  */
+.b-rad-l {
+  border-radius: 15px;
+}
+
+/* border radius full or Circle  */
+.b-rad-f {
+  width: max-content;
+  max-height: max-content;
+  border-radius: 50%;
+}
+
+/* background color */
+
+.bc-p {
+  background-color: var(--primary-color);
+}
+
+.bc-s {
+  background-color: var(--secondary-color);
+}
