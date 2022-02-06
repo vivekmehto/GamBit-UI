@@ -1,0 +1,117 @@
+/* headings utilities */
+
+.head-1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 700;
+}
+.head-2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+}
+.head-3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+.head-4 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+.head-5 {
+  font-size: 0.5rem;
+  line-height: 1rem;
+  font-weight: 500;
+}
+
+/* text line through  */
+.text-lt {
+  text-decoration: line-through;
+}
+/* text underline  */
+.text-ul {
+  text-decoration: underline;
+}
+
+/* text primary color  */
+.text-p-color {
+  color: var(--primary-color);
+}
+/* text secondary color  */
+.text-s-color {
+  color: var(--secondary-color);
+}
+
+/* small text  */
+.text-small {
+  font-size: 0.5rem;
+}
+/* text large  */
+.text-large {
+  font-size: 1.5rem;
+}
+
+/* grey color text  */
+.text-grey {
+  color: var(--grey);
+}
+
+/* center text  */
+.text-center {
+  text-align: center;
+}
+/* left text  */
+.text-left {
+  text-align: left;
+}
+/* text right  */
+.text-right {
+  text-align: right;
+}
+
+/* font size class  */
+
+/* extra small  */
+.fs-xs {
+  font-size: 0.6rem;
+}
+/* small  */
+.fs-s {
+  font-size: 0.8rem;
+}
+/* regular  */
+.fs-r {
+  font-size: 1rem;
+}
+/* medium  */
+.fs-m {
+  font-size: 1.3rem;
+}
+/* large  */
+.fs-l {
+  font-size: 1.6rem;
+}
+/* extra large  */
+.fs-xl {
+  font-size: 2rem;
+}
+
+/* font-weight  class*/
+/* bold  */
+.fw-b {
+  font-weight: 600;
+}
+/* semi bold  */
+.fw-sb {
+  font-weight: 500;
+}
+/* regular  */
+.fw-r {
+  font-weight: 400;
+}
+/*   light  */
+.fw-l {
+  font-weight: 300;
+}
