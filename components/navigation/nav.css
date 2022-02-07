@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 10vh;
+  width: 100%;
+  background-color: var(--primary-light);
+}
+
+.logo a {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.header-nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-nav ul {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.header-nav li {
+  display: inline-block;
+}
+
+.header-nav a {
+  color: var(--white);
+}
+
+.header-nav .fas {
+  margin-right: 0.8rem;
+}
+
+.header-search {
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-search input {
+  font-size: 1.2rem;
+}
+
+.header-search .btn {
+  box-shadow: none;
+}
