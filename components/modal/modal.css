@@ -17,6 +17,10 @@
   box-shadow: 2px 2px 5px var(--grey-dark);
 }
 
+.modal-button .btn {
+  margin-left: 1rem;
+}
+
 .modal-wrapper .modal-header {
   padding-bottom: 0.5rem;
   border-bottom: 1px var(--grey) solid;
