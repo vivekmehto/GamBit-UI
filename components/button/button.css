@@ -6,11 +6,11 @@
 }
 
 .btn-primary {
-  background-color: var(--blue);
+  background-color: var(--primary-color);
 }
 
 .btn-secondary {
-  background-color: var(--grey);
+  background-color: var(--secondary-color);
 }
 
 .btn-success {
@@ -66,11 +66,11 @@
 }
 
 .btn-primary:hover {
-  background-color: var(--blue-d);
+  background-color: var(--primary-dark);
 }
 
 .btn-secondary:hover {
-  background-color: var(--grey-dark);
+  background-color: var(--secondary-color);
 }
 
 .btn-success:hover {
