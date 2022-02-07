@@ -1,0 +1,22 @@
+.grid {
+  display: grid;
+}
+.grid-gap {
+  gap: 1rem;
+}
+
+.grid-col-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-content {
+  min-height: 10rem;
+  background-color: var(--blue-xl);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
