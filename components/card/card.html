@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card | GamBit UI</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon/gambit-favicon.ico">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/dracula.min.css"
+        integrity="sha512-zKpFlhUX8c+WC6H/XTJavnEpWFt2zH9BU9vu0Hry5Y+SEgG21pRMFcecS7DgDXIegXBQ3uK9puwWPP3h6WSR9g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+
+        <h1 class="logo"><a href="#"><span class="logo-img">♞</span>GamBit UI</a></h1>
+
+        <nav class="header-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Docs</a></li>
+            </ul>
+        </nav>
+
+        <button class="btn btn-secondary btn-lg btn-download"><a href="">Download</a></button>
+
+    </header>
+
+
+
+    <main class="main-intro">
+
+
+        <aside>
+            <div class="sidebar">
+                <div class="list">
+                    <div class="list-topic">
+                        <a href="#">
+                            Get Started
+                        </a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a href="/html/intro.html#indroduction">
+                                Introduction
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#installation">
+                                Installation
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#download">
+                                Download
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#colors">
+                                Colors
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#typography">
+                                Typography
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                    <div class="list-topic">
+                        <a href="#" class="fw-b">Components</a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a href="#">
+                                Alert
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Avatar
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Badge
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Button
+                            </a>
+                        </li>
+                        <li>
+                            <a class="active" href="#">
+                                Card
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Image
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Input
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Lists
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Modal
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Navigation
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Toast
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Text Utilities
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Rating
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Grid
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </aside>
+
+
+        <div class="content">
+
+
+            <div class="content-container avatar-profile">
+                <h1 class="head-1">Card</h1>
+                <p>Cards are surfaces that display content and actions on a single topic.
+
+                    They should be easy to scan for relevant and actionable information. Elements, like text and images,
+                    should be placed on them in a way that clearly indicates hierarchy.</p>
+
+
+            </div>
+
+
+
+
+
+            <div class="content-container avatar-profile">
+                <h2 class="head-1">Simple Card</h2>
+                <p>Simple Card is the one that contains a title, a descriptive text. To use the Card Component,
+                    card-title, and card-text inside a div with class card.</p>
+
+                <div class="example-container">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">
+                                <h1 class="head-2"> King's Gambit </h1>
+                            </div>
+                            <div class="card-text">
+                                <p> The King's Gambit is a chess opening that begins with the moves: e4 e5 , f4
+                                    White offers a pawn to divert the black e-pawn. If Black accepts the gambit,
+                                    White has two main
+                                    plans.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <pre>
+<code class="html">
+    <div class="card">
+        <div class="card-header">
+            <div class="card-title">
+                <h1 class="head-2"> King's Gambit </h1>
+            </div>
+            <div class="card-text">
+                <p> Text .....
+                </p>
+            </div>
+        </div>
+    </div>
+                 </code>
+                </pre>
+                </div>
+            </div>
+
+
+
+            <div class="content-container avatar-profile">
+                <h2 class="head-1">Basic eCommerce Card</h2>
+                <p>eCommerce Card is used to display the products details i.e., Product shot, Name, Type, Fixed badge,
+                    Price, Discount and stock.</p>
+
+                <div class="example-container">
+
+                    <div class="card">
+                        <div class="card-img">
+                            <img class="img-responsive" src="/assets/image/tshirtCard.jpg" alt="image">
+                        </div>
+                        <div class="card-header">
+                            <div class="card-title">
+                                <h2>Chessbase India T-Shirt</h2>
+                                <p>Black T-shirt</p>
+                            </div>
+                            <div class="card-text">
+                                <p class="fw-b">Rs.899 <span class="text-grey">
+                                        <span class="text-lt">Rs.999</span>
+                                        <span class="text-p-color"> 10% Off</span></p>
+
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-primary btn-block btn-lg">Buy Now</button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="code-container">
+                    <pre>
+<code class="html">
+
+    <div class="card">
+        <div class="card-img">
+            <img class="img-responsive" src="src" alt="image">
+        </div>
+        <div class="card-header">
+            <div class="card-title">
+                <h2>Chessbase India T-Shirt</h2>
+                <p>Black T-shirt</p>
+            </div>
+            <div class="card-text">
+                <p class="fw-b">Rs.899 <span class="text-grey"> 
+                    <span class="text-lt">Rs.999</span>
+                     <span  class="text-p-color"> 10% Off</span></p>
+            </div>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-primary btn-block btn-lg">Buy Now</button>
+        </div>
+    </div>
+                 </code>
+                </pre>
+                </div>
+            </div>
+
+
+
+            <div class="content-container avatar-profile">
+                <h2 class="head-1">Card w/ Text Overlay</h2>
+
+
+                <div class="example-container">
+
+                    <div class="card">
+                        <div class="card-overlay">
+                            <div class="card-img">
+                                <img src="/assets/image/notebook.jpg" alt="image">
+
+                            </div>
+                            <div class="card-header">
+                                <div class="card-title">
+                                    <h2>Chess Note Book</h2>
+                                    <p>Note Book</p>
+                                </div>
+                                <div class="card-text">
+                                    <p class="fw-b">Rs.899 <span class="text-grey">
+                                            <span class="text-lt">Rs.999</span>
+                                            <span class="text-p-color"> 10% Off</span></p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-primary btn-lg btn-block">Buy Now</button>
+                            </div>
+                        </div>
+
+                        <div class="card-text-overlay">
+                            <p class="head-2 fs-lg">Out of Stock</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="code-container">
+                    <pre>
+<code class="html">
+
+    <div class="card">
+        <div class="card-overlay">
+            <div class="card-img">
+                <img src="src" alt="image">
+
+            </div>
+            <div class="card-header">
+                <div class="card-title">
+                    <h2>Chessbase India T-Shirt</h2>
+                    <p>Black T-shirt</p>
+                </div>
+                <div class="card-text">
+                    <p class="fw-b">Rs.899 <span class="text-grey">
+                         <span class="text-lt">Rs.999</span> 
+                         <span class="text-p-color"> 10% Off</span></p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-primary btn-lg btn-block">Buy Now</button>
+            </div>
+        </div>
+
+        <div class="card-text-overlay">
+            <p class="head-2 fs-lg">Out of Stock</p>
+        </div>
+    </div>
+
+
+
+                 </code>
+                </pre>
+                </div>
+            </div>
+
+
+
+            <div class="content-container avatar-profile">
+                <h2 class="head-1">Card w/ Badge</h2>
+
+
+                <div class="example-container">
+                    <div class="card">
+                        <div class="badge-text bc-p">NEW</div>
+                        <div class="card-img">
+                            <img class="img-responsive" src="/assets/image/tshirtCard.jpg" alt="image">
+                        </div>
+                        <div class="card-header">
+                            <div class="card-title">
+                                <h2>Chessbase India T-Shirt</h2>
+                                <p>Black T-shirt</p>
+                            </div>
+                            <div class="card-text">
+                                <p class="fw-b">Rs.899 <span class="text-grey">
+                                        <span class="text-lt">Rs.999</span>
+                                        <span class="text-p-color"> 10% Off</span></p>
+
+
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-dark btn-block">Add to Cart</button>
+                            <button class="btn btn-primary btn-block">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <pre>
+<code class="html">
+    <div class="card">
+        <div class="badge-text bc-p">NEW</div>
+        <div class="card-img">
+            <img class="img-responsive" src="src" alt="image">
+        </div>
+        <div class="card-header">
+            <div class="card-title">
+                <h2>Chessbase India T-Shirt</h2>
+                <p>Black T-shirt</p>
+            </div>
+            <div class="card-text">
+                <p class="fw-b">Rs.899 <span class="text-grey"> 
+                    <span class="text-lt">Rs.999</span>
+                     <span
+                            class="text-p-color"> 10% Off</span></p>
+            </div>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-dark btn-block">Add to Cart</button>
+            <button class="btn btn-primary btn-block">Buy Now</button>
+        </div>
+    </div>
+                 </code>
+                </pre>
+                </div>
+            </div>
+
+
+
+            <div class="content-container avatar-profile">
+                <h2 class="head-1">Card w/ Close Button</h2>
+
+
+                <div class="example-container">
+                    <div class="card">
+                        <div class="badge-text bc-p">Best Seller</div>
+                        <button class="btn-card "><i class="fas fa-times"></i>
+                        </button>
+                        <div class="card-img">
+                            <img class="img-responsive" src="/assets/image/tshirtCard.jpg" alt="image">
+                        </div>
+                        <div class="card-header">
+                            <div class="card-title">
+                                <h2>Chessbase India T-Shirt</h2>
+                                <p>Black T-shirt</p>
+                            </div>
+                            <div class="card-text">
+                                <p class="fw-b">Rs.899 <span class="text-grey">
+                                        <span class="text-lt">Rs.999</span>
+                                        <span class="text-p-color"> 10% Off</span></p>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-dark btn-block">Add to Cart</button>
+                            <button class="btn btn-primary btn-block">Buy Now</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="code-container">
+                    <pre>
+<code class="html">
+    <div class="card">
+        <div class="badge-text bc-p">Best Seller</div>
+        <button class="btn-card "><i class="fas fa-times"></i>
+        </button>
+        <div class="card-img">
+            <img class="img-responsive" src="src" alt="image">
+        </div>
+        <div class="card-header">
+            <div class="card-title">
+                <h2>Chessbase India T-Shirt</h2>
+                <p>Black T-shirt</p>
+            </div>
+            <div class="card-text">
+                <p class="fw-b">Rs.899 <span class="text-grey"> 
+                    <span class="text-lt">Rs.999</span>
+                     <span class="text-p-color"> 10% Off</span></p>
+            </div>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-dark btn-block">Add to Cart</button>
+            <button class="btn btn-primary btn-block">Buy Now</button>
+        </div>
+    </div>
+                 </code>
+                </pre>
+                </div>
+            </div>
+
+
+
+            <div class="content-container avatar-profile">
+                <h2 class="head-1">Card Horizontal</h2>
+
+
+                <div class="example-container">
+                    <div class="card card-horizontal">
+                        <div class="card-left">
+                            <div class="badge-text bc-p">Best Seller</div>
+                            <button class="btn-card btn-heart"><i class="fas fa-heart"></i>
+                            </button>
+                            <div class="card-img">
+                                <img class="img-responsive" src="/assets/image/tshirtCard.jpg" alt="image">
+                            </div>
+                        </div>
+                        <div class="card-right">
+                            <div class="card-header">
+                                <div class="card-title">
+                                    <h2>Chessbase India T-Shirt</h2>
+                                    <p>Black T-shirt</p>
+                                </div>
+                                <div class="card-text">
+                                    <p class="fw-b">Rs.899 <span class="text-grey">
+                                            <span class="text-lt">Rs.999</span>
+                                            <span class="text-p-color"> 10%Off</span>
+                                    </p>
+                                    <p>Quantity: 1</p>
+                                    <p>Size: M</p>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-light btn-block">Add to Cart</button>
+                                <button class="btn btn-primary btn-block">Buy Now</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <pre>
+<code class="html">
+    <div class="card card-horizontal">
+        <div class="card-left">
+            <div class="badge-text bc-p">Best Seller</div>
+            <button class="btn-card btn-heart"><i class="fas fa-heart"></i>
+            </button>
+            <div class="card-img">
+                <img class="img-responsive" src="src" alt="image">
+            </div>
+        </div>
+        <div class="card-right">
+            <div class="card-header">
+                <div class="card-title">
+                    <h2>Chessbase India T-Shirt</h2>
+                    <p>Black T-shirt</p>
+                </div>
+                <div class="card-text">
+                    <p class="fw-b">Rs.899 <span class="text-grey"> 
+                        <span class="text-lt">Rs.999</span> 
+                        <span class="text-p-color"> 10% Off</span>
+                    </p>
+                    <p>Quantity: 1</p>
+                    <p>Size: M</p>
+
+                </div>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-light btn-block">Add to Cart</button>
+                <button class="btn btn-primary btn-block">Buy Now</button>
+            </div>
+        </div>
+    </div>
+                 </code>
+                </pre>
+                </div>
+            </div>
+
+
+            <footer class="footer">
+                <div class="footer-head">
+                    <h4>Made by <span class="logo-img">Vivek Mehto</span></h4>
+
+                </div>
+                <div class="footer-icons">
+                    <a href="https://www.linkedin.com/in/vivek-mehto-8a22841ba/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/vivekmehto/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/vivekmehto" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/vivekmehto_" target="_blank"><i class="fab fa-twitter"></i></a>
+
+
+                </div>
+                <div class="footer-head">
+                    <h4>©️ <span class="logo-img">♞</span>GamBit UI | 2022</h4>
+                </div>
+
+            </footer>
+
+
+        </div>
+
+
+    </main>
+
+
+    <a href="#" role="button" class="btn btn-primary btn-float"><i class="fas fa-arrow-up"></i></a>
+
+
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+    <script src="/src/highlightjs.js"></script>
+</body>
+
+</html>

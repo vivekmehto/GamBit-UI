@@ -48,7 +48,7 @@
   border-radius: 5px;
   box-shadow: 2px 2px 2rem var(--grey);
   margin: 1rem;
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .grid-color-container {
