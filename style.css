@@ -139,6 +139,10 @@ body {
   margin-left: 1rem;
 }
 
+.main-buttons .btn-primary a {
+  color: var(--white);
+}
+
 .footer {
   display: flex;
   flex-direction: column;
