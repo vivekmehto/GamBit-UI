@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert | GamBit UI</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon/gambit-favicon.ico">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/dracula.min.css"
+        integrity="sha512-zKpFlhUX8c+WC6H/XTJavnEpWFt2zH9BU9vu0Hry5Y+SEgG21pRMFcecS7DgDXIegXBQ3uK9puwWPP3h6WSR9g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+
+        <h1 class="logo"><a href="#"><span class="logo-img">♞</span>GamBit UI</a></h1>
+
+        <nav class="header-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Docs</a></li>
+            </ul>
+        </nav>
+
+        <button class="btn btn-secondary btn-lg btn-download"><a href="">Download</a></button>
+
+    </header>
+
+
+
+    <main class="main-intro">
+
+
+        <aside>
+            <div class="sidebar">
+                <div class="list">
+                    <div class="list-topic">
+                        <a href="#">
+                            Get Started
+                        </a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a href="#introduction">
+                                Introduction
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#installation">
+                                Installation
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#download">
+                                Download
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#colors">
+                                Colors
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#typography">
+                                Typography
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                    <div class="list-topic">
+                        <a href="#" class="fw-b">Components</a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a class="active" href="#">
+                                Alert
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Avatar
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Badge
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Button
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Card
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Image
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Input
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Lists
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Modal
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Navigation
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Toast
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Text Utilities
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Rating
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Grid
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </aside>
+
+
+        <div class="content">
+
+
+            <div class="content-container" id="alert">
+                <h1 class="head-1">Alert</h1>
+                <p>An alert displays a short, important message in a way that attracts the user's attention
+                    without interrupting the user's task.</p>
+
+
+            </div>
+
+
+
+
+
+            <div class="content-container" id="simple-alert">
+                <h2 class="head-1">Simple Alert</h2>
+                <p>Simple Alerts can be created using alert class, followed by the variant name.</p>
+
+
+                <div class="example-container">
+                    <div class="alert alert-primary">
+                        You are Logged in
+                    </div>
+
+                    <div class="alert alert-secondary">
+                        You are logged out
+                    </div>
+                    <div class="alert alert-success">
+                        Payement Successful
+                    </div>
+                    <div class="alert alert-danger">
+                        Your deadline is over.
+                    </div>
+                    <div class="alert alert-warning">
+                        Last day of Submission is Tomorrow.
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <pre>
+<code class="html">
+  <div class="alert alert-primary">
+                        You are Logged in
+                    </div>
+        
+                    <div class="alert alert-secondary">
+                        You are logged out
+                    </div>
+                    <div class="alert alert-success">
+                        Payement Successful
+                    </div>
+                    <div class="alert alert-danger">
+                        Your deadline is over.
+                    </div>
+                    <div class="alert alert-warning">
+                        Last day of Submission is Tomorrow.
+                    </div>
+                 </code>
+                </pre>
+                </div>
+            </div>
+
+
+
+            <div class="content-container" id="alert-link">
+                <h2 class="head-1">Alert w/ Link</h2>
+                <p>Simple Alerts can be created using alert class, followed by the variant name.</p>
+
+
+                <div class="example-container">
+                    <div class="alert alert-primary">
+                        You are Logged in. <a href="#" class="alert-link">LINK</a>
+                    </div>
+
+                    <div class="alert alert-secondary">
+                        You are logged out. <a href="#" class="alert-link">LINK</a>
+                    </div>
+                    <div class="alert alert-success">
+                        Payement Successful. <a href="#" class="alert-link">LINK</a>
+                    </div>
+                    <div class="alert alert-danger">
+                        Deadline is over. <a href="#" class="alert-link">LINK</a>
+                    </div>
+                    <div class="alert alert-warning">
+                        Last day of Submission is Tomorrow. <a href="#" class="alert-link">LINK</a>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <pre>
+<code class="html">
+    <div class="alert alert-primary">
+        You are Logged in. <a href="#" class="alert-link">LINK</a>
+    </div>
+
+    <div class="alert alert-secondary">
+        You are logged out. <a href="#" class="alert-link">LINK</a>
+    </div>
+    <div class="alert alert-success">
+        Payement Successful. <a href="#" class="alert-link">LINK</a>
+    </div>
+    <div class="alert alert-danger">
+        Deadline is over. <a href="#" class="alert-link">LINK</a>
+    </div>
+    <div class="alert alert-warning">
+        Last day of Submission is Tomorrow. <a href="#" class="alert-link">LINK</a>
+    </div>
+                 </code>
+                </pre>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="content-container" id="alert-icon">
+                <h2 class="head-1">Alert w/ Icon</h2>
+                <p>Simple Alerts can be created using alert class, followed by the variant name.</p>
+
+                <div class="example-container">
+                    <div class="alert alert-primary">
+
+                        <i class="fas fa-sign-in-alt"></i> You are Logged in
+                    </div>
+
+                    <div class="alert alert-secondary">
+                        <i class="fas fa-sign-out-alt"></i> You are logged out
+                    </div>
+                    <div class="alert alert-success">
+                        <i class="far fa-check-circle"></i> Payement Successful
+                    </div>
+                    <div class="alert alert-danger">
+                        <i class="fas fa-skull-crossbones"></i> Your deadline is over.
+                    </div>
+                    <div class="alert alert-warning">
+                        <span><i class="fas fa-exclamation-triangle"></i></span>
+                        Last day of Submission is Tomorrow.
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <pre>
+<code class="html">
+    <div class="alert alert-primary">
+
+        <i class="fas fa-sign-in-alt"></i> You are Logged in
+    </div>
+
+    <div class="alert alert-secondary">
+        <i class="fas fa-sign-out-alt"></i> You are logged out
+    </div>
+    <div class="alert alert-success">
+        <i class="far fa-check-circle"></i> Payement Successful
+    </div>
+    <div class="alert alert-danger">
+        <i class="fas fa-skull-crossbones"></i> Your deadline is over.
+    </div>
+    <div class="alert alert-warning">
+        <span><i class="fas fa-exclamation-triangle"></i></span>
+        Last day of Submission is Tomorrow.
+    </div>
+                 </code>
+                </pre>
+                </div>
+
+
+            </div>
+
+
+
+
+
+            <div class="content-container" id="alert-close-btn">
+                <h2 class="head-1">Alert w/ Close Button</h2>
+                <p>Alerts w/ close button can be created using alert class, followed by the variant name and
+                    then adding the button.
+
+
+                </p>
+
+                <div class="example-container">
+                    <div class="alert alert-primary">
+
+                        <i class="fas fa-sign-in-alt"></i> You are Logged in
+                        <button type="button" class="btn-close"><i class="far fa-times-circle"></i></button>
+                    </div>
+
+                    <div class="alert alert-secondary">
+                        <i class="fas fa-sign-out-alt"></i> You are logged out
+                        <button type="button" class="btn-close"><i class="far fa-times-circle"></i></button>
+                    </div>
+                    <div class="alert alert-success">
+                        <i class="far fa-check-circle"></i> Payement Successful
+                        <button type="button" class="btn-close"><i class="far fa-times-circle"></i></button>
+                    </div>
+                    <div class="alert alert-danger">
+                        <i class="fas fa-skull-crossbones"></i> Your deadline is over.
+                        <button type="button" class="btn-close"><i class="far fa-times-circle"></i></button>
+                    </div>
+                    <div class="alert alert-warning">
+                        <span><i class="fas fa-exclamation-triangle"></i></span>
+                        Last day of Submission is Tomorrow.
+                        <button type="button" class="btn-close"><i class="far fa-times-circle"></i></button>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <pre>
+<code class="html">
+    <div class="alert alert-primary">
+
+        <i class="fas fa-sign-in-alt"></i> You are Logged in
+        <button type="button" class="btn-close"><i class="far fa-times-circle"></i></button>
+    </div>
+
+    <div class="alert alert-secondary">
+        <i class="fas fa-sign-out-alt"></i> You are logged out
+        <button type="button" class="btn-close"><i class="far fa-times-circle"></i></button>
+    </div>
+    <div class="alert alert-success">
+        <i class="far fa-check-circle"></i> Payement Successful
+        <button type="button" class="btn-close"><i class="far fa-times-circle"></i></button>
+    </div>
+    <div class="alert alert-danger">
+        <i class="fas fa-skull-crossbones"></i> Your deadline is over.
+        <button type="button" class="btn-close"><i class="far fa-times-circle"></i></button>
+    </div>
+    <div class="alert alert-warning">
+        <span><i class="fas fa-exclamation-triangle"></i></span>
+        Last day of Submission is Tomorrow.
+        <button type="button" class="btn-close"><i class="far fa-times-circle"></i></button>
+    </div>
+                 </code>
+                </pre>
+                </div>
+            </div>
+
+
+            <footer class="footer">
+                <div class="footer-head">
+                    <h4>Made by <span class="logo-img">Vivek Mehto</span></h4>
+
+                </div>
+                <div class="footer-icons">
+                    <a href="https://www.linkedin.com/in/vivek-mehto-8a22841ba/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/vivekmehto/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/vivekmehto" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/vivekmehto" target="_blank"><i class="fab fa-twitter"></i></a>
+
+
+                </div>
+                <div class="footer-head">
+                    <h4>©️ <span class="logo-img">♞</span>GamBit UI | 2022</h4>
+                </div>
+
+            </footer>
+
+
+        </div>
+
+
+    </main>
+
+
+    <a href="#" role="button" class="btn btn-primary btn-float"><i class="fas fa-arrow-up"></i></a>
+
+
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+    <script src="/src/highlightjs.js"></script>
+</body>
+
+</html>
