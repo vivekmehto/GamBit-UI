@@ -1,49 +1,54 @@
 .main-intro {
-  position: relative;
-  width: 80%;
-  margin: auto;
+  width: 90%;
+  margin: 3rem auto;
   display: flex;
-  gap: 20px;
+  gap: 2rem;
+  color: var(--text-color);
 }
 
 .content {
+  width: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
-}
-
-.content section {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 
 .content-container {
   padding: 1rem;
-  margin: 2rem auto;
+  width: 90%;
+  font-size: 1.2rem;
+  font-weight: 500;
   display: flex;
   flex-direction: column;
-  line-height: 1.7;
-  word-spacing: 2;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 
-.content-container p {
-  width: 100%;
+.content-container {
   font-size: 1.2rem;
   font-weight: 500;
+  /* white-space: wrap; */
 }
 
-#download .content-container a {
+.content-container a {
   width: max-content;
 }
 
 .code-container pre code {
-  width: max-content;
   font-size: 1rem;
-  margin: auto;
+  width: 100%;
+  overflow: auto;
+}
+
+.example-container {
+  background-color: var(--slate);
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2rem var(--grey);
+  margin: 1rem;
+  max-width: 80%;
 }
 
 .grid-color-container {
@@ -104,4 +109,49 @@
 }
 .grid-color-container .red-d-color {
   background-color: var(--red-d);
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    width: 90%;
+    margin: auto;
+  }
+  .grid-color-container {
+    grid-template-columns: repeat(4, 10rem);
+  }
+}
+
+@media screen and (max-width: 968px) {
+  aside {
+    display: none;
+  }
+  .main-intro {
+    width: 100%;
+    margin: 1rem;
+  }
+  .content-container {
+    width: 100%;
+    margin: 1rem;
+  }
+  .grid-color-container {
+    grid-template-columns: repeat(3, 10rem);
+  }
+  .code-container pre code {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .code-container pre code {
+    font-size: 0.8rem;
+    max-width: 25rem;
+    margin: 1rem auto;
+  }
+  .example-container {
+    min-width: 25rem;
+  }
+  .grid-color-container {
+    grid-template-columns: repeat(3, 8rem);
+    grid-auto-rows: 8rem;
+  }
 }
