@@ -1,10 +1,10 @@
-.header {
+.head {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   min-height: 10vh;
   width: 100%;
-  background-color: var(--primary-light);
+  background-color: var(--primary-light) !important;
 }
 
 .logo a {
