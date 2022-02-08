@@ -134,6 +134,11 @@
   display: block;
 }
 
+.image-container .example-container {
+  display: block;
+  max-width: 40rem;
+}
+
 @media screen and (max-width: 1024px) {
   .header {
     width: 90%;
