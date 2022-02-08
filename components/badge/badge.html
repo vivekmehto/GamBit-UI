@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badge | GamBit UI</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon/gambit-favicon.ico">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/dracula.min.css"
+        integrity="sha512-zKpFlhUX8c+WC6H/XTJavnEpWFt2zH9BU9vu0Hry5Y+SEgG21pRMFcecS7DgDXIegXBQ3uK9puwWPP3h6WSR9g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+
+        <h1 class="logo"><a href="#"><span class="logo-img">♞</span>GamBit UI</a></h1>
+
+        <nav class="header-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Docs</a></li>
+            </ul>
+        </nav>
+
+        <button class="btn btn-secondary btn-lg btn-download"><a href="">Download</a></button>
+
+    </header>
+
+
+
+    <main class="main-intro">
+
+
+        <aside>
+            <div class="sidebar">
+                <div class="list">
+                    <div class="list-topic">
+                        <a href="#">
+                            Get Started
+                        </a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a href="#introduction">
+                                Introduction
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#installation">
+                                Installation
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#download">
+                                Download
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#colors">
+                                Colors
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#typography">
+                                Typography
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                    <div class="list-topic">
+                        <a href="#" class="fw-b">Components</a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a href="#">
+                                Alert
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Avatar
+                            </a>
+                        </li>
+                        <li>
+                            <a class="active" href="#">
+                                Badge
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Button
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Card
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Image
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Input
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Lists
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Modal
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Navigation
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Toast
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Text Utilities
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Rating
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Grid
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </aside>
+
+
+        <div class="content">
+
+
+            <div class="content-container avatar-profile">
+                <h1 class="head-1">Badge</h1>
+                <p>Badges are small circles, positioned either at top-right or bottom-right of the parent component.
+                    Badge can be used to display numbers, online / offline status, depending on where they are used.</p>
+
+
+            </div>
+
+
+
+
+
+            <div class="content-container avatar-profile">
+                <h2 class="head-1">Profile Badge</h2>
+                <p>Profile Badge is used to show the current status of a user.
+                    It can be used with 3 variants : online | offline | dnd</p>
+
+                <div class="example-container">
+                    <div class="badge-wrapper">
+                        <img class="avatar" src="/assets/image/avatar-img.jpg" alt="avatar-1">
+                        <span class="badge badge-bottom-right badge-online"></span>
+                    </div>
+
+                    <div class="badge-wrapper">
+                        <img class="avatar av-sm" src="/assets/image/avatar-img.jpg" alt="avatar-1">
+                        <span class="badge badge-bottom-right  badge-online"></span>
+                    </div>
+
+
+                    <div class="badge-wrapper">
+                        <img class="avatar av-md" src="/assets/image/avatar-img.jpg" alt="avatar-1">
+                        <span class="badge badge-bottom-right badge-idle"></span>
+                    </div>
+
+                    <div class="badge-wrapper">
+                        <img class="avatar av-lg" src="/assets/image/avatar-img.jpg" alt="avatar-1">
+                        <span class="badge badge-bottom-right badge-offline"></span>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <pre>
+<code class="html">
+  <div class="badge-wrapper">
+            <img class="avatar" src="/assets/image/avatar-img.jpg" alt="avatar-1">
+            <span class="badge badge-bottom-right badge-online"></span>
+        </div>
+
+        <div class="badge-wrapper">
+            <img class="avatar av-sm" src="/assets/image/avatar-img.jpg" alt="avatar-1">
+            <span class="badge badge-bottom-right  badge-online"></span>
+        </div>
+
+
+        <div class="badge-wrapper">
+            <img class="avatar av-md" src="/assets/image/avatar-img.jpg" alt="avatar-1">
+            <span class="badge badge-bottom-right badge-idle"></span>
+        </div>
+
+        <div class="badge-wrapper">
+            <img class="avatar av-lg" src="/assets/image/avatar-img.jpg" alt="avatar-1">
+            <span class="badge badge-bottom-right badge-offline"></span>
+        </div>
+                 </code>
+                </pre>
+                </div>
+            </div>
+
+
+            <div class="content-container avatar-profile">
+                <h2 class="head-1">Text Badge</h2>
+                <p>Profile Avatars can be created using the class 'avatar', inside the img tag..</p>
+
+
+                <div class="example-container">
+                    <div class="badge-wrapper">
+                        <h1>Chess will be played in Asian Games 2022.<span class="badge-text">NEW</span></h1>
+                    </div>
+
+                    <div class="badge-wrapper">
+                        <h2>Chess will be played in Asian Games 2022.<span class="badge-text">NEW</span></h2>
+                    </div>
+
+                    <div class="badge-wrapper">
+                        <h3>Chess will be played in Asian Games 2022. Capsule badge -> <span
+                                class="badge-text badge-capsule">
+                                NEW</span></h3>
+                    </div>
+
+                    <div class="badge-wrapper">
+                        <h4>Chess will be played in Asian Games 2022.<span class="badge-text">NEW</span></h4>
+                    </div>
+
+                    <div class="badge-wrapper">
+                        <h5>Chess will be played in Asian Games 2022.<span class="badge-text">NEW</span></h5>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <pre>
+<code class="html">
+     <div class="badge-wrapper">
+                <h1>Chess will be played in Asian Games 2022.<span class="badge-text">NEW</span></h1>
+            </div>
+
+            <div class="badge-wrapper">
+                <h2>Chess will be played in Asian Games 2022.<span class="badge-text">NEW</span></h2>
+            </div>
+
+            <div class="badge-wrapper">
+                <h3>Chess will be played in Asian Games 2022. Capsule badge -> <span class="badge-text badge-capsule">
+                        NEW</span></h3>
+            </div>
+
+            <div class="badge-wrapper">
+                <h4>Chess will be played in Asian Games 2022.<span class="badge-text">NEW</span></h4>
+            </div>
+
+            <div class="badge-wrapper">
+                <h5>Chess will be played in Asian Games 2022.<span class="badge-text">NEW</span></h5>
+            </div>
+                 </code>
+                </pre>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="content-container avatar-profile">
+                <h2 class="head-1">Number Badge</h2>
+                <p>Profile Avatars can be created using the class 'avatar', inside the img tag..</p>
+
+
+
+                <div class="example-container">
+                    <div class="badge-wrapper">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge badge-number badge-right">8</span>
+                    </div>
+
+                    <div class="badge-wrapper">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge badge-number badge-right">4</span>
+                    </div>
+
+
+                    <div class="badge-wrapper">
+                        <i class="far fa-comment"></i>
+                        <span class="badge badge-number badge-right">8</span>
+                    </div>
+
+                    <div class="badge-wrapper">
+                        <i class="fab fa-discord"></i>
+                        <span class="badge badge-number badge-right">20</span>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <pre>
+<code class="html">
+   
+    <div class="badge-wrapper">
+        <i class="fas fa-bell"></i>
+        <span class="badge badge-number badge-right">8</span>
+    </div>
+
+    <div class="badge-wrapper">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="badge badge-number badge-right">4</span>
+    </div>
+
+
+    <div class="badge-wrapper">
+        <i class="far fa-comment"></i>
+        <span class="badge badge-number badge-right">8</span>
+    </div>
+
+    <div class="badge-wrapper">
+        <i class="fab fa-discord"></i>
+        <span class="badge badge-number badge-right">20</span>
+    </div>
+                 </code>
+                </pre>
+                </div>
+            </div>
+
+
+            <div class="content-container avatar-profile">
+                <h2 class="head-1">Button with a badge on the left</h2>
+                <p>Profile Avatars can be created using the class 'avatar', inside the img tag..</p>
+
+
+
+                <div class="example-container">
+
+                    <div class="badge-wrapper">
+
+                        <span class="badge badge-number badge-left">8</span>
+                        <button class="btn btn-primary">RESET</button>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <pre>
+<code class="html">
+   
+    <div class="badge-wrapper">
+
+        <span class="badge badge-number badge-left">8</span>
+        <button class="btn btn-primary">RESET</button>
+    </div>            
+               
+                    </code>
+                </pre>
+                </div>
+            </div>
+
+
+            <div class="content-container avatar-profile">
+                <h2 class="head-1">Avatar w/ border</h2>
+                <p>Profile Avatars can be created using the class 'avatar', inside the img tag..</p>
+
+
+
+                <div class="example-container">
+
+                    <div class="badge-wrapper">
+
+
+                        <button class="btn btn-primary btn-toggle">RESET</button>
+                        <span class="badge badge-number badge-right badge-toggle">8</span>
+                    </div>
+                </div>
+
+                <div class="code-container">
+                    <pre>
+<code class="html">
+   
+    <div class="badge-wrapper">
+
+
+        <button class="btn btn-primary btn-toggle">RESET</button>
+        <span class="badge badge-number badge-right badge-toggle">8</span>
+    </div>       
+   
+                    </code>
+                </pre>
+                </div>
+            </div>
+
+
+
+            <footer class="footer">
+                <div class="footer-head">
+                    <h4>Made by <span class="logo-img">Vivek Mehto</span></h4>
+
+                </div>
+                <div class="footer-icons">
+                    <a href="https://www.linkedin.com/in/vivek-mehto-8a22841ba/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/vivekmehto/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/vivekmehto" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/vivekmehto" target="_blank"><i class="fab fa-twitter"></i></a>
+
+
+                </div>
+                <div class="footer-head">
+                    <h4>©️ <span class="logo-img">♞</span>GamBit UI | 2022</h4>
+                </div>
+
+            </footer>
+
+
+        </div>
+
+
+    </main>
+
+
+    <a href="#" role="button" class="btn btn-primary btn-float"><i class="fas fa-arrow-up"></i></a>
+
+
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+    <script src="/src/highlightjs.js"></script>
+</body>
+
+</html>
