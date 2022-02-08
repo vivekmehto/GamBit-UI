@@ -23,7 +23,7 @@
 
 .badge-left {
   left: -10px;
-  top: 0;
+  top: -10px;
 }
 
 .badge-online {
