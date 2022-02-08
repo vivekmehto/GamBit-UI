@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button | GamBit UI</title>
+    <title>Toast | GamBit UI</title>
     <link rel="icon" type="image/x-icon" href="/assets/favicon/gambit-favicon.ico">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/dracula.min.css"
@@ -96,7 +96,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="active" href="#">
+                            <a href="#">
                                 Button
                             </a>
                         </li>
@@ -131,7 +131,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a class="active" href="#">
                                 Toast
                             </a>
                         </li>
@@ -162,9 +162,10 @@
 
 
             <div class="content-container avatar-profile">
-                <h1 class="head-1">Button</h1>
-                <p>Buttons are the soul of an interactive Web Application. Buttons allow users to take actions, and make
-                    choices, with a single tap.</p>
+                <h1 class="head-1">Toast</h1>
+                <p>Toast display messages related to an interaction happened between user and the website. They usually
+                    stay on the screen for 5 seconds and then disappear.
+                    Toast can be used to show success messages, warnings or errors.</p>
 
 
             </div>
@@ -174,32 +175,29 @@
 
 
             <div class="content-container avatar-profile">
-                <h2 class="head-1">Simple Buttons</h2>
-                <p>Simple buttons are high-emphasis, distinguished by their use of elevation and fill. They contain
-                    actions that are primary to your app.</p>
+                <h2 class="head-1">Leading Toast</h2>
+                <p>Leading toast always appear on the left side of the screen.</p>
 
                 <div class="example-container">
-                    <button type="button" class="btn btn-primary">Primary</button>
-                    <button type="button" class="btn btn-secondary">Secondary</button>
-                    <button type="button" class="btn btn-success">Success</button>
-                    <button type="button" class="btn btn-danger">Danger</button>
-                    <button type="button" class="btn btn-warning">Warning</button>
-                    <button type="button" class="btn btn-info">Info</button>
-                    <button type="button" class="btn btn-light">Light</button>
-                    <button type="button" class="btn btn-dark">Dark</button>
+                    <div class="toast">
+                        <div class="toast-text">Can't send photo. Retry in 5 seconds</div>
+                        <div class="toast-button">
+                            <button class="btn br-l">RETRY</button>
+                            <button class="btn leading-close-btn"><i class="fas fa-times"></i></button>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="code-container">
                     <pre>
 <code class="html">
-   <button type="button" class="btn btn-primary">Primary</button>
-            <button type="button" class="btn btn-secondary">Secondary</button>
-            <button type="button" class="btn btn-success">Success</button>
-            <button type="button" class="btn btn-danger">Danger</button>
-            <button type="button" class="btn btn-warning">Warning</button>
-            <button type="button" class="btn btn-info">Info</button>
-            <button type="button" class="btn btn-light">Light</button>
-            <button type="button" class="btn btn-dark">Dark</button>
+    <div class="toast">
+        <div class="toast-text">Can't send photo. Retry in 5 seconds</div>
+        <div class="toast-button">
+            <button class="btn br-l">RETRY</button>
+            <button class="btn leading-close-btn"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
                  </code>
                 </pre>
                 </div>
@@ -207,18 +205,29 @@
 
 
             <div class="content-container avatar-profile">
-                <h2 class="head-1">Link Button</h2>
-                <p>Want to attach a link action, at a button tap? Use Link Button</p>
-
+                <h2 class="head-1">Baseline Toast</h2>
+                <p>Baseline toast always appear on the middle of the screen.</p>
 
                 <div class="example-container">
-                    <a class="btn btn-primary" href="#" role="button">Link</a>
+                    <div class="toast">
+                        <div class="toast-text">Can't send photo. Retry in 5 seconds</div>
+                        <div class="toast-button">
+                            <button class="btn br-l">RETRY</button>
+                            <button class="btn baseline-close-btn"><i class="fas fa-times"></i></button>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="code-container">
                     <pre>
 <code class="html">
-     <a class="btn btn-primary" href="#" role="button">Link</a>
+    <div class="toast toast-baseline">
+        <div class="toast-text">Can't send photo. Retry in 5 seconds</div>
+        <div class="toast-button">
+            <button class="btn br-l">RETRY</button>
+            <button class="btn baseline-close-btn"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
                  </code>
                 </pre>
                 </div>
@@ -229,131 +238,42 @@
 
 
             <div class="content-container avatar-profile">
-                <h2 class="head-1">Button w/ Different Sizes</h2>
-                <p>Profile Avatars can be created using the class 'avatar', inside the img tag..</p>
+                <h2 class="head-1">Stacked Toast</h2>
+
 
 
 
                 <div class="example-container">
 
-                    <button type="button" class="btn btn-primary btn-lg">Large button</button>
-                    <button type="button" class="btn btn-secondary btn-lg">Large button</button>
-
-                    <button type="button" class="btn btn-primary btn-sm">Small button</button>
-                    <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+                    <div class="toast toast-stacked">
+                        <div class="toast-text">Can't send photo. Retry in 5 seconds</div>
+                        <div class="toast-button">
+                            <button class="btn br-l">RETRY</button>
+                            <button class="btn stacked-close-btn"><i class="fas fa-times"></i></button>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="code-container">
                     <pre>
 <code class="html">
    
-    <button type="button" class="btn btn-primary btn-lg">Large button</button>
-            <button type="button" class="btn btn-secondary btn-lg">Large button</button>
-
-            <button type="button" class="btn btn-primary btn-sm">Small button</button>
-            <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+    <div class="toast toast-stacked">
+        <div class="toast-text">Can't send photo. Retry in 5 seconds</div>
+        <div class="toast-button">
+            <button class="btn br-l">RETRY</button>
+            <button class="btn stacked-close-btn"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
                  </code>
                 </pre>
                 </div>
             </div>
 
 
-            <div class="content-container avatar-profile">
-                <h2 class="head-1">Block Button</h2>
-                <p>Profile Avatars can be created using the class 'avatar', inside the img tag..</p>
 
 
 
-                <div class="example-container">
-
-                    <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
-                    <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
-                </div>
-
-                <div class="code-container">
-                    <pre>
-<code class="html">
-   
-    <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
-    <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>            </code>
-                </pre>
-                </div>
-            </div>
-
-
-            <div class="content-container avatar-profile">
-                <h2 class="head-1">Button w/ Icon and text</h2>
-                <p>Profile Avatars can be created using the class 'avatar', inside the img tag..</p>
-
-
-
-                <div class="example-container">
-
-                    <button type="button" class="btn btn-primary"><i class="fas fa-share-alt"></i> Share</button>
-                    <button type="button" class="btn btn-light"><i class="fas fa-chess-knight"></i> Play</button>
-                </div>
-
-                <div class="code-container">
-                    <pre>
-<code class="html">
-   
-    <button type="button" class="btn btn-primary"><i class="fas fa-share-alt"></i> Share</button>
-    <button type="button" class="btn btn-light"><i class="fas fa-chess-knight"></i> Play</button>        
-   
-                    </code>
-                </pre>
-                </div>
-            </div>
-
-
-
-            <div class="content-container avatar-profile">
-                <h2 class="head-1">Button w/ Icon</h2>
-                <p>Profile Avatars can be created using the class 'avatar', inside the img tag..</p>
-
-
-
-                <div class="example-container">
-
-                    <button type="button" class="btn btn-primary"><i class="fas fa-share-alt"></i></button>
-                    <button type="button" class="btn btn-light"><i class="fas fa-chess-knight"></i></button>
-                </div>
-
-                <div class="code-container">
-                    <pre>
-<code class="html">
-   
-    <button type="button" class="btn btn-primary"><i class="fas fa-share-alt"></i></button>
-            <button type="button" class="btn btn-light"><i class="fas fa-chess-knight"></i></button>       
-   
-                    </code>
-                </pre>
-                </div>
-            </div>
-
-
-
-            <div class="content-container avatar-profile">
-                <h2 class="head-1">Floating Action Button</h2>
-                <p>Profile Avatars can be created using the class 'avatar', inside the img tag..</p>
-
-
-
-                <div class="example-container">
-
-                    <a href="#" role="button" class="btn btn-primary btn-float"><i class="fas fa-arrow-up"></i></a>
-                </div>
-
-                <div class="code-container">
-                    <pre>
-<code class="html">
-   
-    <a href="#" role="button" class="btn btn-primary btn-float"><i class="fas fa-arrow-up"></i></a>    
-   
-                    </code>
-                </pre>
-                </div>
-            </div>
 
             <footer class="footer">
                 <div class="footer-head">
@@ -392,6 +312,7 @@
         hljs.highlightAll();
     </script>
     <script src="/src/highlightjs.js"></script>
+    <script src="/app.js"></script>
 </body>
 
 </html>

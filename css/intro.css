@@ -125,6 +125,11 @@
   right: 0;
 }
 
+.example-container .toast {
+  display: flex;
+  position: relative;
+}
+
 @media screen and (max-width: 1024px) {
   .header {
     width: 90%;
