@@ -1,0 +1,47 @@
+aside {
+  width: max-content;
+  font-size: 1.2rem;
+}
+
+.sidebar {
+  position: sticky;
+  left: 0;
+}
+
+.sidebar .list {
+  margin: 1rem;
+}
+
+.sidebar .list .list-topic {
+  font-weight: 700;
+}
+
+.list-topic a,
+.list-subtopic li a {
+  color: var(--text-color);
+}
+
+.list-topic a:hover,
+.list-subtopic li a:hover {
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.sidebar .list-subtopic .active {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+.sidebar .list-subtopic li {
+  letter-spacing: 1px;
+  list-style: none;
+  display: block;
+  margin: auto;
+  padding: 0.5rem;
+  font-weight: 500;
+}

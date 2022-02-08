@@ -1,0 +1,107 @@
+.main-intro {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.content section {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.content-container {
+  padding: 1rem;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.7;
+  word-spacing: 2;
+  gap: 2rem;
+}
+
+.content-container p {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+#download .content-container a {
+  width: max-content;
+}
+
+.code-container pre code {
+  width: max-content;
+  font-size: 1rem;
+  margin: auto;
+}
+
+.grid-color-container {
+  display: grid;
+  grid-template-columns: repeat(5, 10rem);
+  grid-auto-rows: 10rem;
+  gap: 0.5rem;
+}
+
+.grid-color-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--white);
+  padding: 1rem;
+}
+
+.grid-color-container .blue-color {
+  background-color: var(--blue);
+}
+.grid-color-container .indigo-color {
+  background-color: var(--indigo);
+}
+.grid-color-container .violet-color {
+  background-color: var(--violet);
+}
+.grid-color-container .purple-color {
+  background-color: var(--purple);
+}
+.grid-color-container .red-color {
+  background-color: var(--red);
+}
+
+.grid-color-container .orange-color {
+  background-color: var(--orange);
+}
+
+.grid-color-container .yellow-color {
+  background-color: var(--yellow);
+}
+.grid-color-container .green-color {
+  background-color: var(--green);
+}
+.grid-color-container .teal-color {
+  background-color: var(--teal);
+}
+.grid-color-container .cyan-color {
+  background-color: var(--cyan);
+}
+
+.grid-color-container .red-xl-color {
+  background-color: var(--red-xl);
+}
+.grid-color-container .red-l-color {
+  background-color: var(--red-l);
+}
+.grid-color-container .red-d-color {
+  background-color: var(--red-d);
+}
