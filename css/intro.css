@@ -130,6 +130,10 @@
   position: relative;
 }
 
+.text-util-container .example-container {
+  display: block;
+}
+
 @media screen and (max-width: 1024px) {
   .header {
     width: 90%;
