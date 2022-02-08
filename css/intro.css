@@ -119,6 +119,12 @@
   gap: 2rem;
 }
 
+.example-container .btn-float {
+  position: relative;
+  bottom: 0;
+  right: 0;
+}
+
 @media screen and (max-width: 1024px) {
   .header {
     width: 90%;
