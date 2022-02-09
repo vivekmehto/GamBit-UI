@@ -94,9 +94,6 @@ body {
   color: var(--text-color);
 }
 
-/* main  */
-@import url("https://gambitui.netlify.app/gambit.min.css");
-
 .main {
   width: 80%;
   margin: 3rem auto;
