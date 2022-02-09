@@ -1,9 +1,14 @@
 .main-intro {
   width: 90%;
-  margin: 3rem auto;
+  margin: 0.5rem auto;
   display: flex;
   gap: 2rem;
   color: var(--text-color);
+}
+
+.burger {
+  display: none;
+  margin-left: 2rem;
 }
 
 .content {
@@ -150,13 +155,29 @@
 }
 
 @media screen and (max-width: 968px) {
+  .burger {
+    display: block;
+  }
+
   aside {
+    position: absolute;
+    left: -3rem;
+    top: 10rem;
+    z-index: 9;
+  }
+
+  #sidebar-aside {
     display: none;
   }
   .main-intro {
     width: 100%;
-    margin: 1rem;
   }
+  .code-container pre code {
+    font-size: 0.8rem;
+    max-width: 30rem;
+    margin: 1rem auto;
+  }
+
   .content-container {
     width: 100%;
     margin: 1rem;
@@ -164,15 +185,18 @@
   .grid-color-container {
     grid-template-columns: repeat(3, 10rem);
   }
-  .code-container pre code {
-    width: 30rem;
-  }
 }
 
 @media screen and (max-width: 480px) {
+  .header {
+    flex-direction: column;
+  }
+  .header-nav {
+    margin: auto;
+  }
   .code-container pre code {
     font-size: 0.8rem;
-    max-width: 25rem;
+    max-width: 22rem;
     margin: 1rem auto;
   }
   .example-container {

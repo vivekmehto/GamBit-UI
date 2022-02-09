@@ -1,17 +1,7 @@
 aside {
   width: max-content;
   font-size: 1.2rem;
-}
-
-.sidebar {
-  position: sticky;
-  top: 0;
-  left: 0;
-  overflow-y: scroll !important;
-}
-
-.sidebar .list {
-  margin: 1rem;
+  margin-left: 4rem;
 }
 
 .sidebar .list .list-topic {
