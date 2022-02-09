@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@100&display=swap");
 
 :root {
+  --primary-color: #1d4ed8;
+  --primary-light: #3b82f6;
+  --primary-dark: #1e3a8a;
+  --secondary-color: #f0c65d;
+  --secondary-dark: #a37e1f;
+  --accent-color: #fbbf24;
+  --text-color: #292524;
+  --background-color: #f1f5f9;
+
   --blue: hsl(221, 83%, 53%);
   --blue-d: hsl(226, 71%, 40%);
   --blue-l: hsl(217, 91%, 60%);
