@@ -33,12 +33,16 @@
                 download="gambit.min.css">Download</a></button>
     </header>
 
+    <div class="burger">
+        <h1><i class="fa fa-thin fa-bars"></i></h1>
+    </div>
+
 
 
     <main class="main-intro">
 
 
-        <aside>
+        <aside id="sidebar-aside">
             <div class="sidebar">
                 <div class="list">
                     <div class="list-topic">
@@ -121,12 +125,12 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/components/modal/">
+                            <a href="/components/modal/modal.html">
                                 Modal
                             </a>
                         </li>
                         <li>
-                            <a href="/components/navigation/">
+                            <a href="/components/navigation/nav.html">
                                 Navigation
                             </a>
                         </li>
@@ -561,6 +565,12 @@
             </div>
 
 
+            <div class="div-button">
+                <a class="btn btn-dark btn-lg" href="/components/button/button.html" role="button">Previous</a>
+
+                <a class="btn btn-primary btn-lg" href="/components/image/image.html" role="button">Next</a>
+            </div>
+
             <footer class="footer">
                 <div class="footer-head">
                     <h4>Made by <span class="logo-img">Vivek Mehto</span></h4>
@@ -598,6 +608,7 @@
         hljs.highlightAll();
     </script>
     <script src="/src/highlightjs.js"></script>
+    <script src="/app.js"></script>
 </body>
 
 </html>
