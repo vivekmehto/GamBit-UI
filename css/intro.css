@@ -206,20 +206,34 @@
 @media screen and (max-width: 480px) {
   .header {
     flex-direction: column;
+    font-size: 1rem;
+  }
+
+  .logo a {
+    font-size: 1.5rem;
   }
   .header-nav {
     margin: auto;
   }
+
+  .header-nav ul li a {
+    font-size: 1rem;
+  }
   .code-container pre code {
     font-size: 0.8rem;
     max-width: 22rem;
-    margin: 1rem auto;
+    margin: 1rem;
   }
   .example-container {
-    min-width: 25rem;
+    min-width: 22rem;
+    margin: 1rem;
   }
   .grid-color-container {
-    grid-template-columns: repeat(3, 8rem);
-    grid-auto-rows: 8rem;
+    grid-template-columns: repeat(3, 6rem);
+    grid-auto-rows: 6rem;
+  }
+
+  .grid-color-container div {
+    font-size: 0.8rem;
   }
 }
