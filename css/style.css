@@ -1,6 +1,6 @@
-@import url(/css/main.css);
-@import url(/css/intro.css);
-@import url(/css/sidebar.css);
+@import url(main.css);
+@import url(intro.css);
+@import url(sidebar.css);
 
 :root {
   --primary-color: #1d4ed8;
@@ -17,6 +17,9 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+a {
+  color: var(--text-color);
+}
 .container-index {
   width: 100%;
   height: 100%;
