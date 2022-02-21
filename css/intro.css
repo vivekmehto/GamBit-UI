@@ -6,9 +6,8 @@
   color: var(--text-color);
 }
 
-.burger {
+#burger {
   display: none;
-  margin-left: 2rem;
 }
 
 #sidebar-aside {
@@ -166,14 +165,16 @@
 }
 
 @media screen and (max-width: 968px) {
-  .burger {
+  #burger {
     display: block;
+    margin-left: 1rem;
   }
 
   aside {
     position: absolute;
     left: -3rem;
     top: 10rem;
+    padding: 0;
     z-index: 9;
   }
 

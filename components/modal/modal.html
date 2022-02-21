@@ -1,201 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modal | GamBit UI</title>
-    <link rel="icon" type="image/x-icon" href="/assets/favicon/gambit-favicon.ico">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/dracula.min.css"
-        integrity="sha512-zKpFlhUX8c+WC6H/XTJavnEpWFt2zH9BU9vu0Hry5Y+SEgG21pRMFcecS7DgDXIegXBQ3uK9puwWPP3h6WSR9g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="/style.css">
-</head>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/favicon/gambit-favicon.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/dracula.min.css"
+      integrity="sha512-zKpFlhUX8c+WC6H/XTJavnEpWFt2zH9BU9vu0Hry5Y+SEgG21pRMFcecS7DgDXIegXBQ3uK9puwWPP3h6WSR9g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
 
-<body>
-
-
-
+  <body>
     <header class="header">
+      <h1 class="logo">
+        <a href="/index.html"><span class="logo-img">♞</span>GamBit UI</a>
+      </h1>
 
-        <h1 class="logo"><a href="/index.html"><span class="logo-img">♞</span>GamBit UI</a></h1>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/html/intro.html">Docs</a></li>
+        </ul>
+      </nav>
 
-        <nav class="header-nav">
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/html/intro.html">Docs</a></li>
-            </ul>
-        </nav>
-
-        <button class="btn btn-secondary btn-lg btn-download"><a href="/gambit.min.css"
-                download="gambit.min.css">Download</a></button>
+      <button class="btn btn-secondary btn-lg btn-download">
+        <a href="/gambit.min.css" download="gambit.min.css">Download</a>
+      </button>
     </header>
 
-    <div class="burger">
-        <h1><i class="fa fa-thin fa-bars"></i></h1>
+    <div id="burger">
+      <h1><i class="fa fa-thin fa-bars"></i></h1>
     </div>
 
     <main class="main-intro">
-
-
-        <aside id="sidebar-aside">
-            <div class="sidebar">
-                <div class="list">
-                    <div class="list-topic">
-                        <a href="/html/intro.html">
-                            Get Started
-                        </a>
-                    </div>
-                    <ul class="list-subtopic">
-                        <li>
-                            <a href="/html/intro.html#indroduction">
-                                Introduction
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/html/intro.html#installation">
-                                Installation
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/html/intro.html#download">
-                                Download
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/html/intro.html#colors">
-                                Colors
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/html/intro.html#typography">
-                                Typography
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="list">
-                    <div class="list-topic">
-                        <a href="#" class="fw-b">Components</a>
-                    </div>
-                    <ul class="list-subtopic">
-                        <li>
-                            <a href="/components/alert/alert.html">
-                                Alert
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/avatar/avatar.html">
-                                Avatar
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/badge/badge.html">
-                                Badge
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/button/button.html">
-                                Button
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/card/card.html">
-                                Card
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/image/image.html">
-                                Image
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/input/input.html">
-                                Input
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/list/list.html">
-                                Lists
-                            </a>
-                        </li>
-                        <li>
-                            <a class="active" href="/components/modal/modal.html">
-                                Modal
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/navigation/nav.html">
-                                Navigation
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/toast/toast.html">
-                                Toast
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/utilities/utilities.html">
-                                Utilities
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/rating/rating.html">
-                                Rating
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/grid/grid.html">
-                                Grid
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+      <aside id="sidebar-aside">
+        <div class="sidebar">
+          <div class="list">
+            <div class="list-topic">
+              <a href="/html/intro.html"> Get Started </a>
             </div>
+            <ul class="list-subtopic">
+              <li>
+                <a href="/html/intro.html#indroduction"> Introduction </a>
+              </li>
+              <li>
+                <a href="/html/intro.html#installation"> Installation </a>
+              </li>
+              <li>
+                <a href="/html/intro.html#download"> Download </a>
+              </li>
+              <li>
+                <a href="/html/intro.html#colors"> Colors </a>
+              </li>
+              <li>
+                <a href="/html/intro.html#typography"> Typography </a>
+              </li>
+            </ul>
+          </div>
 
-
-        </aside>
-
-
-        <div class="content">
-
-
-            <div class="content-container avatar-profile">
-                <h1 class="head-1">Modal</h1>
-                <p>A modal is a dialog box/popup window that is displayed on top of the current page: Open Modal.</p>
-
-
+          <div class="list">
+            <div class="list-topic">
+              <a href="#" class="fw-b">Components</a>
             </div>
+            <ul class="list-subtopic">
+              <li>
+                <a href="/components/alert/alert.html"> Alert </a>
+              </li>
+              <li>
+                <a href="/components/avatar/avatar.html"> Avatar </a>
+              </li>
+              <li>
+                <a href="/components/badge/badge.html"> Badge </a>
+              </li>
+              <li>
+                <a href="/components/button/button.html"> Button </a>
+              </li>
+              <li>
+                <a href="/components/card/card.html"> Card </a>
+              </li>
+              <li>
+                <a href="/components/image/image.html"> Image </a>
+              </li>
+              <li>
+                <a href="/components/input/input.html"> Input </a>
+              </li>
+              <li>
+                <a href="/components/list/list.html"> Lists </a>
+              </li>
+              <li>
+                <a class="active" href="/components/modal/modal.html">
+                  Modal
+                </a>
+              </li>
+              <li>
+                <a href="/components/navigation/nav.html"> Navigation </a>
+              </li>
+              <li>
+                <a href="/components/toast/toast.html"> Toast </a>
+              </li>
+              <li>
+                <a href="/components/utilities/utilities.html"> Utilities </a>
+              </li>
+              <li>
+                <a href="/components/rating/rating.html"> Rating </a>
+              </li>
+              <li>
+                <a href="/components/grid/grid.html"> Grid </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
 
+      <div class="content">
+        <div class="content-container avatar-profile">
+          <h1 class="head-1">Modal</h1>
+          <p>
+            A modal is a dialog box/popup window that is displayed on top of the
+            current page: Open Modal.
+          </p>
+        </div>
 
+        <div class="content-container avatar-profile">
+          <h2 class="head-1">Alert Modal</h2>
 
+          <div class="example-container">
+            <div class="modal-wrapper">
+              <div class="modal-header">
+                <h2>Alert Modal</h2>
+              </div>
+              <div class="modal-body">
+                <p class="fs-m">Do you like chess??</p>
+              </div>
+              <div class="modal-button">
+                <button class="btn btn-primary modal-btn">YES</button>
+                <button class="btn btn-dark modal-btn">NO</button>
+              </div>
+            </div>
+          </div>
 
-
-            <div class="content-container avatar-profile">
-                <h2 class="head-1">Alert Modal</h2>
-
-
-                <div class="example-container">
-                    <div class="modal-wrapper">
-                        <div class="modal-header">
-                            <h2>Alert Modal</h2>
-                        </div>
-                        <div class="modal-body">
-                            <p class="fs-m">Do you like chess??</p>
-                        </div>
-                        <div class="modal-button">
-                            <button class="btn btn-primary modal-btn">YES</button>
-                            <button class="btn btn-dark modal-btn">NO</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="code-container">
-                    <pre>
+          <div class="code-container">
+            <pre>
 <code class="html">
     <div class="modal-wrapper">
         <div class="modal-header">
@@ -211,29 +170,27 @@
     </div>
                  </code>
                 </pre>
-                </div>
+          </div>
+        </div>
+
+        <div class="content-container avatar-profile">
+          <h2 class="head-1">Simple Modal</h2>
+
+          <div class="example-container">
+            <div class="modal-wrapper modal-simple">
+              <div class="modal-header">
+                <h2>Simple Modal</h2>
+              </div>
+              <div class="modal-button">
+                <button class="btn btn-primary">item 1</button>
+                <button class="btn btn-primary">item 2</button>
+                <button class="btn btn-primary">item 3</button>
+              </div>
             </div>
+          </div>
 
-
-            <div class="content-container avatar-profile">
-                <h2 class="head-1">Simple Modal</h2>
-
-
-                <div class="example-container">
-                    <div class="modal-wrapper modal-simple">
-                        <div class="modal-header">
-                            <h2>Simple Modal</h2>
-                        </div>
-                        <div class="modal-button">
-                            <button class="btn btn-primary"> item 1</button>
-                            <button class="btn btn-primary"> item 2</button>
-                            <button class="btn btn-primary"> item 3</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="code-container">
-                    <pre>
+          <div class="code-container">
+            <pre>
 <code class="html">
         <div class="modal-wrapper modal-simple">
             <div class="modal-header">
@@ -247,53 +204,47 @@
         </div>
                  </code>
                 </pre>
-                </div>
+          </div>
+        </div>
+
+        <div class="content-container avatar-profile">
+          <h2 class="head-1">Confirmation Modal</h2>
+
+          <div class="example-container">
+            <div class="modal-wrapper modal-confirmation">
+              <div class="modal-header">
+                <h2>Condirmation Modal</h2>
+              </div>
+              <div class="modal-body">
+                <label class="radio-label" for="input-1">
+                  <input type="radio" name="item" id="input-1" />
+                  Item 1</label
+                >
+
+                <label class="radio-label" for="input-2">
+                  <input type="radio" name="item" id="input-2" />
+                  Item 2</label
+                >
+
+                <label class="radio-label" for="input-3">
+                  <input type="radio" name="item" id="input-3" />
+                  Item 3</label
+                >
+
+                <label class="radio-label" for="input-4">
+                  <input type="radio" name="item" id="input-4" />
+                  Item 4</label
+                >
+              </div>
+              <div class="modal-button">
+                <button class="btn btn-primary">Yes</button>
+                <button class="btn btn-dark">No</button>
+              </div>
             </div>
+          </div>
 
-
-
-
-
-            <div class="content-container avatar-profile">
-                <h2 class="head-1">Confirmation Modal</h2>
-
-
-
-                <div class="example-container">
-
-                    <div class="modal-wrapper modal-confirmation">
-                        <div class="modal-header">
-                            <h2>Condirmation Modal</h2>
-                        </div>
-                        <div class="modal-body">
-                            <label class="radio-label" for="input-1">
-                                <input type="radio" name="item" id="input-1">
-                                Item 1</label>
-
-
-                            <label class="radio-label" for="input-2">
-                                <input type="radio" name="item" id="input-2">
-                                Item 2</label>
-
-                            <label class="radio-label" for="input-3">
-                                <input type="radio" name="item" id="input-3">
-                                Item 3</label>
-
-                            <label class="radio-label" for="input-4">
-
-                                <input type="radio" name="item" id="input-4">
-                                Item 4</label>
-                        </div>
-                        <div class="modal-button">
-                            <button class="btn btn-primary"> Yes</button>
-                            <button class="btn btn-dark"> No</button>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="code-container">
-                    <pre>
+          <div class="code-container">
+            <pre>
 <code class="html">
    
     <div class="modal-wrapper modal-confirmation">
@@ -321,54 +272,61 @@
     </div>
                  </code>
                 </pre>
-                </div>
-            </div>
-
-            <div class="div-button">
-                <a class="btn btn-dark btn-lg" href="/components/list/list.html" role="button">Previous</a>
-
-                <a class="btn btn-primary btn-lg" href="/components/navigation/nav.html" role="button">Next</a>
-            </div>
-
-
-            <footer class="footer">
-                <div class="footer-head">
-                    <h4>Made by <span class="logo-img">Vivek Mehto</span></h4>
-
-                </div>
-                <div class="footer-icons">
-                    <a href="https://www.linkedin.com/in/vivek-mehto-8a22841ba/" target="_blank"><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <a href="https://www.instagram.com/vivekmehto/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://github.com/vivekmehto" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://twitter.com/vivekmehto_" target="_blank"><i class="fab fa-twitter"></i></a>
-
-
-                </div>
-                <div class="footer-head">
-                    <h4>©️ <span class="logo-img">♞</span>GamBit UI | 2022</h4>
-                </div>
-
-            </footer>
-
-
+          </div>
         </div>
 
+        <div class="div-button">
+          <a
+            class="btn btn-dark btn-lg"
+            href="/components/list/list.html"
+            role="button"
+            >Previous</a
+          >
 
+          <a
+            class="btn btn-primary btn-lg"
+            href="/components/navigation/nav.html"
+            role="button"
+            >Next</a
+          >
+        </div>
+
+        <footer class="footer">
+          <div class="footer-head">
+            <h4>Made by <span class="logo-img">Vivek Mehto</span></h4>
+          </div>
+          <div class="footer-icons">
+            <a
+              href="https://www.linkedin.com/in/vivek-mehto-8a22841ba/"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="https://www.instagram.com/vivekmehto/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://github.com/vivekmehto" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://twitter.com/vivekmehto_" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+          <div class="footer-head">
+            <h4>©️ <span class="logo-img">♞</span>GamBit UI | 2022</h4>
+          </div>
+        </footer>
+      </div>
     </main>
 
-
-    <a href="#" role="button" class="btn btn-primary btn-float"><i class="fas fa-arrow-up"></i></a>
-
-
-
+    <a href="#" role="button" class="btn btn-primary btn-float"
+      ><i class="fas fa-arrow-up"></i
+    ></a>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>
-        hljs.highlightAll();
+      hljs.highlightAll();
     </script>
     <script src="/src/highlightjs.js"></script>
-    <script src="/app.js"></script>
-</body>
-
+    <script src="/src/app.js"></script>
+  </body>
 </html>

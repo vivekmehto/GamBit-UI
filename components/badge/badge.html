@@ -1,205 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Badge | GamBit UI</title>
-    <link rel="icon" type="image/x-icon" href="/assets/favicon/gambit-favicon.ico">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/dracula.min.css"
-        integrity="sha512-zKpFlhUX8c+WC6H/XTJavnEpWFt2zH9BU9vu0Hry5Y+SEgG21pRMFcecS7DgDXIegXBQ3uK9puwWPP3h6WSR9g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="/style.css">
-</head>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/favicon/gambit-favicon.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/dracula.min.css"
+      integrity="sha512-zKpFlhUX8c+WC6H/XTJavnEpWFt2zH9BU9vu0Hry5Y+SEgG21pRMFcecS7DgDXIegXBQ3uK9puwWPP3h6WSR9g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
 
-<body>
-
-
+  <body>
     <header class="header">
+      <h1 class="logo">
+        <a href="/index.html"><span class="logo-img">♞</span>GamBit UI</a>
+      </h1>
 
-        <h1 class="logo"><a href="/index.html"><span class="logo-img">♞</span>GamBit UI</a></h1>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/html/intro.html">Docs</a></li>
+        </ul>
+      </nav>
 
-        <nav class="header-nav">
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/html/intro.html">Docs</a></li>
-            </ul>
-        </nav>
-
-        <button class="btn btn-secondary btn-lg btn-download"><a href="/gambit.min.css"
-                download="gambit.min.css">Download</a></button>
+      <button class="btn btn-secondary btn-lg btn-download">
+        <a href="/gambit.min.css" download="gambit.min.css">Download</a>
+      </button>
     </header>
 
-    <div class="burger">
-        <h1><i class="fa fa-thin fa-bars"></i></h1>
+    <div id="burger">
+      <h1><i class="fa fa-thin fa-bars"></i></h1>
     </div>
 
     <main class="main-intro">
+      <aside id="sidebar-aside">
+        <div class="sidebar">
+          <div class="list">
+            <div class="list-topic">
+              <a href="/html/intro.html"> Get Started </a>
+            </div>
+            <ul class="list-subtopic">
+              <li>
+                <a href="/html/intro.html#indroduction"> Introduction </a>
+              </li>
+              <li>
+                <a href="/html/intro.html#installation"> Installation </a>
+              </li>
+              <li>
+                <a href="/html/intro.html#download"> Download </a>
+              </li>
+              <li>
+                <a href="/html/intro.html#colors"> Colors </a>
+              </li>
+              <li>
+                <a href="/html/intro.html#typography"> Typography </a>
+              </li>
+            </ul>
+          </div>
 
+          <div class="list">
+            <div class="list-topic">
+              <a href="#" class="fw-b">Components</a>
+            </div>
+            <ul class="list-subtopic">
+              <li>
+                <a href="/components/alert/alert.html"> Alert </a>
+              </li>
+              <li>
+                <a href="/components/avatar/avatar.html"> Avatar </a>
+              </li>
+              <li>
+                <a class="active" href="/components/badge/badge.html">
+                  Badge
+                </a>
+              </li>
+              <li>
+                <a href="/components/button/button.html"> Button </a>
+              </li>
+              <li>
+                <a href="/components/card/card.html"> Card </a>
+              </li>
+              <li>
+                <a href="/components/image/image.html"> Image </a>
+              </li>
+              <li>
+                <a href="/components/input/input.html"> Input </a>
+              </li>
+              <li>
+                <a href="/components/list/list.html"> Lists </a>
+              </li>
+              <li>
+                <a href="/components/modal/modal.html"> Modal </a>
+              </li>
+              <li>
+                <a href="/components/navigation/nav.html"> Navigation </a>
+              </li>
+              <li>
+                <a href="/components/toast/toast.html"> Toast </a>
+              </li>
+              <li>
+                <a href="/components/utilities/utilities.html"> Utilities </a>
+              </li>
+              <li>
+                <a href="/components/rating/rating.html"> Rating </a>
+              </li>
+              <li>
+                <a href="/components/grid/grid.html"> Grid </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
 
-        <aside id="sidebar-aside">
-            <div class="sidebar">
-                <div class="list">
-                    <div class="list-topic">
-                        <a href="/html/intro.html">
-                            Get Started
-                        </a>
-                    </div>
-                    <ul class="list-subtopic">
-                        <li>
-                            <a href="/html/intro.html#indroduction">
-                                Introduction
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/html/intro.html#installation">
-                                Installation
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/html/intro.html#download">
-                                Download
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/html/intro.html#colors">
-                                Colors
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/html/intro.html#typography">
-                                Typography
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+      <div class="content">
+        <div class="content-container avatar-profile">
+          <h1 class="head-1">Badge</h1>
+          <p>
+            Badges are small circles, positioned either at top-right or
+            bottom-right of the parent component. Badge can be used to display
+            numbers, online / offline status.
+          </p>
+        </div>
 
-                <div class="list">
-                    <div class="list-topic">
-                        <a href="#" class="fw-b">Components</a>
-                    </div>
-                    <ul class="list-subtopic">
-                        <li>
-                            <a href="/components/alert/alert.html">
-                                Alert
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/avatar/avatar.html">
-                                Avatar
-                            </a>
-                        </li>
-                        <li>
-                            <a class="active" href="/components/badge/badge.html">
-                                Badge
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/button/button.html">
-                                Button
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/card/card.html">
-                                Card
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/image/image.html">
-                                Image
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/input/input.html">
-                                Input
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/list/list.html">
-                                Lists
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/modal/modal.html">
-                                Modal
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/navigation/nav.html">
-                                Navigation
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/toast/toast.html">
-                                Toast
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/utilities/utilities.html">
-                                Utilities
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/rating/rating.html">
-                                Rating
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/components/grid/grid.html">
-                                Grid
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+        <div class="content-container avatar-profile">
+          <h2 class="head-1">Profile Badge</h2>
+          <p>
+            Profile Badge is used to show the current status of a user . GamBit
+            UI provides total 3 variants:
+            <strong> online, idle and offline</strong>
+          </p>
+
+          <div class="example-container">
+            <div class="badge-wrapper">
+              <img
+                class="avatar"
+                src="/assets/image/avatar-img.jpg"
+                alt="avatar-1"
+              />
+              <span class="badge badge-bottom-right badge-online"></span>
             </div>
 
-
-        </aside>
-
-
-
-        <div class="content">
-
-
-            <div class="content-container avatar-profile">
-                <h1 class="head-1">Badge</h1>
-                <p>Badges are small circles, positioned either at top-right or bottom-right of the parent component.
-                    Badge can be used to display numbers, online / offline status.</p>
-
-
+            <div class="badge-wrapper">
+              <img
+                class="avatar av-md"
+                src="/assets/image/avatar-img.jpg"
+                alt="avatar-1"
+              />
+              <span class="badge badge-bottom-right badge-idle"></span>
             </div>
 
+            <div class="badge-wrapper">
+              <img
+                class="avatar av-lg"
+                src="/assets/image/avatar-img.jpg"
+                alt="avatar-1"
+              />
+              <span class="badge badge-bottom-right badge-offline"></span>
+            </div>
+          </div>
 
-
-
-
-            <div class="content-container avatar-profile">
-                <h2 class="head-1">Profile Badge</h2>
-                <p>Profile Badge is used to show the current status of a user .
-                    GamBit UI provides total 3 variants: <strong> online, idle and offline</strong></p>
-
-                <div class="example-container">
-                    <div class="badge-wrapper">
-                        <img class="avatar" src="/assets/image/avatar-img.jpg" alt="avatar-1">
-                        <span class="badge badge-bottom-right badge-online"></span>
-                    </div>
-
-                    <div class="badge-wrapper">
-                        <img class="avatar av-md" src="/assets/image/avatar-img.jpg" alt="avatar-1">
-                        <span class="badge badge-bottom-right badge-idle"></span>
-                    </div>
-
-                    <div class="badge-wrapper">
-                        <img class="avatar av-lg" src="/assets/image/avatar-img.jpg" alt="avatar-1">
-                        <span class="badge badge-bottom-right badge-offline"></span>
-                    </div>
-                </div>
-
-                <div class="code-container">
-                    <pre>
+          <div class="code-container">
+            <pre>
 <code class="html">
         <div class="badge-wrapper">
             <img class="avatar" src="/assets/image/avatar-img.jpg" alt="avatar-1">
@@ -216,36 +191,45 @@
         </div>
                  </code>
                 </pre>
-                </div>
+          </div>
+        </div>
+
+        <div class="content-container avatar-profile">
+          <h2 class="head-1">Text Badge</h2>
+          <p>
+            Text Badge is used in notificatons using
+            <strong>badge-text</strong> class
+          </p>
+
+          <div class="example-container">
+            <div class="badge-wrapper">
+              <h1>
+                Chess in Asian Games 2022.<span class="badge-text">NEW</span>
+              </h1>
             </div>
 
+            <div class="badge-wrapper">
+              <h2>
+                Chess in Asian Games 2022.<span class="badge-text">NEW</span>
+              </h2>
+            </div>
 
-            <div class="content-container avatar-profile">
-                <h2 class="head-1">Text Badge</h2>
-                <p>Text Badge is used in notificatons using <strong>badge-text</strong> class</p>
+            <div class="badge-wrapper">
+              <h3>
+                Chess in Asian Games 2022. Capsule badge ->
+                <span class="badge-text badge-capsule"> NEW</span>
+              </h3>
+            </div>
 
+            <div class="badge-wrapper">
+              <h4>
+                Chess in Asian Games 2022.<span class="badge-text">NEW</span>
+              </h4>
+            </div>
+          </div>
 
-                <div class="example-container">
-                    <div class="badge-wrapper">
-                        <h1>Chess in Asian Games 2022.<span class="badge-text">NEW</span></h1>
-                    </div>
-
-                    <div class="badge-wrapper">
-                        <h2>Chess in Asian Games 2022.<span class="badge-text">NEW</span></h2>
-                    </div>
-
-                    <div class="badge-wrapper">
-                        <h3>Chess in Asian Games 2022. Capsule badge -> <span class="badge-text badge-capsule">
-                                NEW</span></h3>
-                    </div>
-
-                    <div class="badge-wrapper">
-                        <h4>Chess in Asian Games 2022.<span class="badge-text">NEW</span></h4>
-                    </div>
-                </div>
-
-                <div class="code-container">
-                    <pre>
+          <div class="code-container">
+            <pre>
 <code class="html">
      <div class="badge-wrapper">
                 <h1>Chess in Asian Games 2022.<span class="badge-text">
@@ -269,44 +253,40 @@
             </div>
                  </code>
                 </pre>
-                </div>
+          </div>
+        </div>
+
+        <div class="content-container avatar-profile">
+          <h2 class="head-1">Number Badge</h2>
+          <p>
+            Number Badge can be used on icons for notificatons using
+            <strong>badge-right</strong> class.
+          </p>
+
+          <div class="example-container">
+            <div class="badge-wrapper">
+              <i class="fas fa-bell"></i>
+              <span class="badge badge-number badge-right">8</span>
             </div>
 
+            <div class="badge-wrapper">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="badge badge-number badge-right">4</span>
+            </div>
 
+            <div class="badge-wrapper">
+              <i class="far fa-comment"></i>
+              <span class="badge badge-number badge-right">8</span>
+            </div>
 
+            <div class="badge-wrapper">
+              <i class="fab fa-discord"></i>
+              <span class="badge badge-number badge-right">20</span>
+            </div>
+          </div>
 
-
-            <div class="content-container avatar-profile">
-                <h2 class="head-1">Number Badge</h2>
-                <p>Number Badge can be used on icons for notificatons using <strong>badge-right</strong> class.</p>
-
-
-
-                <div class="example-container">
-                    <div class="badge-wrapper">
-                        <i class="fas fa-bell"></i>
-                        <span class="badge badge-number badge-right">8</span>
-                    </div>
-
-                    <div class="badge-wrapper">
-                        <i class="fas fa-shopping-cart"></i>
-                        <span class="badge badge-number badge-right">4</span>
-                    </div>
-
-
-                    <div class="badge-wrapper">
-                        <i class="far fa-comment"></i>
-                        <span class="badge badge-number badge-right">8</span>
-                    </div>
-
-                    <div class="badge-wrapper">
-                        <i class="fab fa-discord"></i>
-                        <span class="badge badge-number badge-right">20</span>
-                    </div>
-                </div>
-
-                <div class="code-container">
-                    <pre>
+          <div class="code-container">
+            <pre>
 <code class="html">
     <div class="badge-wrapper">
         <i class="fas fa-bell"></i>
@@ -326,27 +306,25 @@
     </div>
                  </code>
                 </pre>
-                </div>
+          </div>
+        </div>
+
+        <div class="content-container avatar-profile">
+          <h2 class="head-1">Button w/ Badge on Left</h2>
+          <p>
+            Button with a badge on the left is used by
+            <strong>badge-left</strong> class
+          </p>
+
+          <div class="example-container">
+            <div class="badge-wrapper">
+              <span class="badge badge-number badge-left">8</span>
+              <button class="btn btn-primary">RESET</button>
             </div>
+          </div>
 
-
-            <div class="content-container avatar-profile">
-                <h2 class="head-1">Button w/ Badge on Left</h2>
-                <p>Button with a badge on the left is used by <strong>badge-left</strong> class</p>
-
-
-
-                <div class="example-container">
-
-                    <div class="badge-wrapper">
-
-                        <span class="badge badge-number badge-left">8</span>
-                        <button class="btn btn-primary">RESET</button>
-                    </div>
-                </div>
-
-                <div class="code-container">
-                    <pre>
+          <div class="code-container">
+            <pre>
 <code class="html">
     <div class="badge-wrapper">
         <span class="badge badge-number badge-left">8</span>
@@ -354,26 +332,25 @@
     </div>            
                     </code>
                 </pre>
-                </div>
+          </div>
+        </div>
+
+        <div class="content-container avatar-profile">
+          <h2 class="head-1">Button w/ Badge on Right</h2>
+          <p>
+            Button with a badge on the right is used by
+            <strong>badge-right</strong> class
+          </p>
+
+          <div class="example-container">
+            <div class="badge-wrapper">
+              <button class="btn btn-primary btn-toggle">RESET</button>
+              <span class="badge badge-number badge-right badge-toggle">8</span>
             </div>
+          </div>
 
-
-            <div class="content-container avatar-profile">
-                <h2 class="head-1">Button w/ Badge on Right</h2>
-                <p>Button with a badge on the right is used by <strong>badge-right</strong> class</p>
-
-
-
-                <div class="example-container">
-
-                    <div class="badge-wrapper">
-                        <button class="btn btn-primary btn-toggle">RESET</button>
-                        <span class="badge badge-number badge-right badge-toggle">8</span>
-                    </div>
-                </div>
-
-                <div class="code-container">
-                    <pre>
+          <div class="code-container">
+            <pre>
 <code class="html">
     <div class="badge-wrapper">
         <button class="btn btn-primary btn-toggle">RESET</button>
@@ -381,53 +358,61 @@
     </div>       
                     </code>
                 </pre>
-                </div>
-            </div>
-
-            <div class="div-button">
-                <a class="btn btn-dark btn-lg" href="/components/avatar/avatar.html" role="button">Previous</a>
-
-                <a class="btn btn-primary btn-lg" href="/components/button/button.html" role="button">Next</a>
-            </div>
-
-            <footer class="footer">
-                <div class="footer-head">
-                    <h4>Made by <span class="logo-img">Vivek Mehto</span></h4>
-
-                </div>
-                <div class="footer-icons">
-                    <a href="https://www.linkedin.com/in/vivek-mehto-8a22841ba/" target="_blank"><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <a href="https://www.instagram.com/vivekmehto/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://github.com/vivekmehto" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://twitter.com/vivekmehto_" target="_blank"><i class="fab fa-twitter"></i></a>
-
-
-                </div>
-                <div class="footer-head">
-                    <h4>©️ <span class="logo-img">♞</span>GamBit UI | 2022</h4>
-                </div>
-
-            </footer>
-
-
+          </div>
         </div>
 
+        <div class="div-button">
+          <a
+            class="btn btn-dark btn-lg"
+            href="/components/avatar/avatar.html"
+            role="button"
+            >Previous</a
+          >
 
+          <a
+            class="btn btn-primary btn-lg"
+            href="/components/button/button.html"
+            role="button"
+            >Next</a
+          >
+        </div>
+
+        <footer class="footer">
+          <div class="footer-head">
+            <h4>Made by <span class="logo-img">Vivek Mehto</span></h4>
+          </div>
+          <div class="footer-icons">
+            <a
+              href="https://www.linkedin.com/in/vivek-mehto-8a22841ba/"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="https://www.instagram.com/vivekmehto/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://github.com/vivekmehto" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://twitter.com/vivekmehto_" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+          <div class="footer-head">
+            <h4>©️ <span class="logo-img">♞</span>GamBit UI | 2022</h4>
+          </div>
+        </footer>
+      </div>
     </main>
 
-
-    <a href="#" role="button" class="btn btn-primary btn-float"><i class="fas fa-arrow-up"></i></a>
-
-
-
+    <a href="#" role="button" class="btn btn-primary btn-float"
+      ><i class="fas fa-arrow-up"></i
+    ></a>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>
-        hljs.highlightAll();
+      hljs.highlightAll();
     </script>
     <script src="/src/highlightjs.js"></script>
-    <script src="/app.js"></script>
-</body>
-
+    <script src="/src/app.js"></script>
+  </body>
 </html>
