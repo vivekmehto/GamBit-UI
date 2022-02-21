@@ -16,21 +16,20 @@ Use Now : [GamBit UI](https://gambitui.netlify.app/)
 
 ## GamBit UI has 14 differnet components:
 
-- Alert
-- Avatar
-- Badge
-- Button 
-- Card 
-- Image
-- Input
-- Lists
-- Modal
-- Navigation
-- Toast
-- Utilites
-- Rating
-- Grid
-
+- [Alert](https://gambitui.netlify.app/components/alert/alert.html)
+- [Avatar](https://gambitui.netlify.app/components/avatar/avatar.html)
+- [Badge](https://gambitui.netlify.app/components/badge/badge.html)
+- [Button](https://gambitui.netlify.app/components/button/button.html)
+- [Card](https://gambitui.netlify.app/components/card/card.html)
+- [Image](https://gambitui.netlify.app/components/image/image.html)
+- [Input](https://gambitui.netlify.app/components/input/input.html)
+- [Lists](https://gambitui.netlify.app/components/list/list.html)
+- [Modal](https://gambitui.netlify.app/components/modal/modal.html)
+- [Navigation](https://gambitui.netlify.app/components/navigation/nav.html)
+- [Toast](https://gambitui.netlify.app/components/toast/toast.html)
+- [Utilities](https://gambitui.netlify.app/components/utilities/utilities.html)
+- [Rating](https://gambitui.netlify.app/components/rating/rating.html)
+- [Grid](https://gambitui.netlify.app/components/grid/grid.html)
 
 ## Tech Stack
 
@@ -38,7 +37,7 @@ Use Now : [GamBit UI](https://gambitui.netlify.app/)
 
 **CSS**
 
-
+**JavaScript**
 
 ## Demo
 
